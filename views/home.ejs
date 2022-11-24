@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><h1 class="head">Add event</h1></li>
+        <li><a href="/events">All events</a></li>
+    </ul>
+    <form action="/add" method="post">
+        <div class="form-group">
+            <h3>Heading :</h3>
+            <input type="text" placeholder="Heading of Event" class="form-control" name="heading" cols="10" id="">
+            <h3>Image Link :</h3>
+            <input type="text" placeholder="Event Image Link" class="form-control" name="img" cols="10" id="">
+            <h3>Short Summary :</h3>
+            <textarea class="form-control" placeholder="Short Summary of the event" name="shortSum" id="" cols="30" rows="2"></textarea>
+            <h3>Breif Info :</h3>
+            <textarea class="form-control" placeholder="Breif summary of the event" name="Info" id="" cols="30" rows="2"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Add event</button>
+    </form>
+    
+</body>
+</html>

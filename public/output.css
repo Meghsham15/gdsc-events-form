@@ -1,0 +1,87 @@
+body{
+    background-color: #2f6ad0;
+    background-image: url("https://transparenttextures.com/patterns/brick-wall.png");
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: whitesmoke;
+}
+ul a{
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+ul a:hover{
+    color: black;
+    transform: scale(1.3);
+}
+.about-content img {
+    width: 30%;
+    display: block;
+    /* margin: auto; */
+}
+.about-content h1{
+    font-size: 4vw;
+}
+.about-content h4 {
+    margin: 0vw 6vw;
+    font-size: 1.5vw;
+}
+.postContent {
+    display: flex;
+    width: 96%;
+    align-items: center;
+}
+.about-home {
+    width: 85%;
+    display: block;
+    margin: 3vw auto;
+    padding:3vw;
+    background: white;
+    background-image: url(https://transparenttextures.com/patterns/large-leather.png);
+    box-shadow: 0px 0px 8px 0px;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .postContent {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-content img {
+        width: 70%;
+        display: block;
+        /* margin: auto; */
+    }
+    .about-content h1{
+        font-size: 8vw;
+        margin-bottom: 8vw;
+    }
+    .about-content h4{
+        text-align: center;
+        line-height: 8vw;
+    }
+    .about-content h4 {
+        margin: 10vw 6vw;
+        font-size: 3.5vw;
+    }
+
+}
+
+button {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    color: red;
+    transform: scale(0.8);
+}
