@@ -23,6 +23,13 @@ ul a:hover{
     display: block;
     /* margin: auto; */
 }
+.about-content {
+    padding: 3vw;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background: aliceblue;
+    background-image: url(https://transparenttextures.com/patterns/large-leather.png);
+}
 .about-content h1{
     font-size: 4vw;
 }
@@ -40,10 +47,10 @@ ul a:hover{
     display: block;
     margin: 3vw auto;
     padding:3vw;
-    background: white;
     margin-bottom: 80px;
-    background-image: url(https://transparenttextures.com/patterns/large-leather.png);
     box-shadow: 0px 0px 8px 0px;
+    background-color: #5281d3;
+    background-image: url("https://transparenttextures.com/patterns/brick-wall.png");
 }
 
 @media only screen and (max-width: 480px) {
