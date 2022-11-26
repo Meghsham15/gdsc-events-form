@@ -80,7 +80,7 @@ app.post("/add", function (req, res) {
             }
         });
     } else {
-        res.redirect("/login");
+        res.redirect("/events");
     }
 
 
