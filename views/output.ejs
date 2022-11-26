@@ -25,7 +25,7 @@
                 <div class="about-content">
                     <h1 data-aos="fade-up" data-aos-duration="1000"><%= events.heading %>  - </h1>
                     <div class="postContent">
-                      <img h1 data-aos="fade-left" data-aos-duration="1000" src="<%= events.img %>" alt="">
+                      <img data-aos="fade-left" data-aos-duration="1000" src="<%= events.img %>" alt="">
                     <h4 data-aos="fade-right" data-aos-duration="1000"><%= events.shortSum %> <%= events.Info %></h4>
                     <form action="/delete" method="post">
                         <input type="hidden" name="delItem" value="<%= events.id %>">
