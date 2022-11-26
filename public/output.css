@@ -60,16 +60,17 @@ ul a:hover{
         /* margin: auto; */
     }
     .about-content h1{
-        font-size: 8vw;
+        font-size: 26px;
         margin-bottom: 8vw;
+        text-decoration: underline;
     }
     .about-content h4{
-        text-align: center;
+        text-align: left;
         line-height: 8vw;
-    }
-    .about-content h4 {
-        margin: 10vw 6vw;
+        margin: 10vw 0vw;
+        width: 100%;
         font-size: 3.5vw;
+        margin-left: 30px;
     }
 
 }
