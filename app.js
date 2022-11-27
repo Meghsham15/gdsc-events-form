@@ -76,11 +76,11 @@ app.post("/add", function (req, res) {
             if (err) {
                 console.log(err);
             } else {
-                res.redirect("/");
+                res.redirect("/events");
             }
         });
     } else {
-        res.redirect("/events");
+        res.redirect("/login");
     }
 
 
@@ -118,9 +118,9 @@ app.post("/delete", function (req, res) {
     }
 
 });
-app.get("/register", function (req, res) {
-    res.render("register");
-});
+// app.get("/register", function (req, res) {
+//     res.render("register");
+// });
 app.get("/login", function (req, res) {
     res.render("login");
 });
