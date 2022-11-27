@@ -94,3 +94,6 @@ button:hover{
     color: red;
     transform: scale(0.8);
 }
+.fa{
+    background: none;
+}
